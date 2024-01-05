@@ -1,7 +1,8 @@
 repo_name: ankurkumarz/aiac
 report_id: 23b102e8c179160d67c6e372fbef1b95
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T15:18:48+00:00'
+timestamp: '2024-01-05T08:25:05+00:00'
 requested_by: codesee-maps[bot]
 provider: github
 branch: main
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -27,6 +29,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -36,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/.github/workflows/codesee-arch-diagram.yml
   detection_source: ".github/workflows/codesee-arch-diagram.yml"
   last_updated_by: codesee-maps[bot]
   last_updated_on: 2022-12-27 10:07:21.000000000 Z
