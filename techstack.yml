@@ -1,0 +1,224 @@
+repo_name: ankurkumarz/aiac
+report_id: 23b102e8c179160d67c6e372fbef1b95
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:00:57+00:00'
+requested_by: codesee-maps[bot]
+provider: github
+branch: main
+detected_tools_count: 16
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ankurkumarz/aiac
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/.github/workflows/codesee-arch-diagram.yml
+  detection_source: ".github/workflows/codesee-arch-diagram.yml"
+  last_updated_by: codesee-maps[bot]
+  last_updated_on: 2022-12-27 10:07:21.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  version: 3.17.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:48:34.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ido Perlmuter
+  last_updated_on: 2022-12-08 15:06:29.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ido Perlmuter
+  last_updated_on: 2022-12-11 17:18:22.000000000 Z
+- name: kong
+  description: Kong is a command-line parser for Go
+  package_url: https://pkg.go.dev/github.com/alecthomas/kong
+  version: 0.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ido Perlmuter
+  last_updated_on: 2022-12-08 15:06:29.000000000 Z
+- name: readline
+  description: Readline is a pure go
+  package_url: https://pkg.go.dev/github.com/chzyer/readline
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: spinner
+  description: Go
+  package_url: https://pkg.go.dev/github.com/briandowns/spinner
+  version: 1.19.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ido Perlmuter
+  last_updated_on: 2022-12-08 15:06:29.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Liav Yona
+  last_updated_on: 2022-12-12 17:26:58.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ankurkumarz/aiac/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ido Perlmuter
+  last_updated_on: 2022-12-08 15:06:29.000000000 Z
